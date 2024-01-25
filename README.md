@@ -2,14 +2,12 @@
 3 manual and 3 automation software testing projects in Cerebrum Hub
 
 # PROJECT 1
-
 **Basics**
-
-*Software Development
-*Process (Agile and Scrum)
-*Testing Process
-*Agile Teamwork Fundamentals
-*Self-management Fundamentals
+* Software Development
+* Process (Agile and Scrum)
+* Testing Process
+* Agile Teamwork Fundamentals
+ *Self-management Fundamentals
 
 **Testing Techniques**
 *Use Case Testing
