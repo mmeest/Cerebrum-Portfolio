@@ -4,12 +4,17 @@
 ## Contents
 - [PROJECT 1 - Food ordering app](#project-1)
 - [PROJECT 2 - Company collaboration app](#project-2)
+- [PROJECT 3 - CRM app](#project-3)
+- [PROJECT 4 - Registration forms](#project-4)
+- [PROJECT 5 - Jira clone front-end](#project-5)
+- [PROJECT 6 - Jira clone back-end](#project-6)
 
 
 ***
 
 # PROJECT 1
 Food ordering app
+
 **Basics**
 * Software Development
 * Process (Agile and Scrum)
@@ -31,6 +36,7 @@ Food ordering app
 
 # PROJECT 2
 Company collaboration app
+
 **Deepening Knowledge**
 * Exploratroy Testing
 * Regression Testing
@@ -48,6 +54,8 @@ Company collaboration app
 ***
 
 # PROJECT 3
+CRM app
+
 **Advanced Testing**
 * API Testing with Postman
 * API Testing Test Cases
@@ -65,6 +73,8 @@ Company collaboration app
 ***
 
 # Project 4
+Registration forms
+
 **Foundations**
 * UI Testing Automation Fundamentals
 * Technical Workspace for Automation QA
@@ -80,6 +90,8 @@ Company collaboration app
 ***
 
 # Project 5
+Jira clone front-end
+
 **Advanced Automation**
 * Advanced Automation with Cypress
 * Automation Test Cases
@@ -95,6 +107,8 @@ Company collaboration app
 ***
 
 # Project 6
+Jira clone back-end
+
 **API Automation**
 * API Testing Automation
 * API Testing Automation with Postman
