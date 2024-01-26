@@ -33,6 +33,8 @@ Food ordering app
 * Bug Reporting
 
 
+Submiting order:
+
 ```
 QA tester: Martin
 
@@ -88,6 +90,144 @@ Date of test: 15.07.2023
 
     After submitting order user must receive the order by email (address entered on Basket page) :check_mark:
 ```
+
+Product management:
+```
+QA tester: Martin
+
+Environment:
+
+    OS: Windows 10
+
+    Browser:
+
+    Firefox Version 114.0.1 (64 bit)
+
+    Edge Version 114.0.1823.51 (Official build) (64-bit)
+
+    Chrome Version 114.0.5735.134 (Official Build) (64-bit)
+
+    Opera Version:99.0.4788.65
+
+Date of test: 10.07.2023
+Adding products
+Pre required:
+
+    user must be logged in as Administrator
+
+    Logged in user (as an administrator) should see ‘Add new product' button (same on 'Administration options’ page and on hamburger menu on the right top corner) :cross_mark: Bug report
+
+    For each product there are mandatory fields, that are marked with asterisk * Those fields are: :cross_mark: Bug report
+
+        Product name (Maximum allowed product name length is 50 characters) :cross_mark: Bug report
+
+        'Out of stock' selection in a form of radio button (Yes/No) :cross_mark: Bug report
+
+        Product description (Maximum allowed length of text input discussed with product owner!) :check_mark:
+
+        Product Category - in a form of dropdown list with selection in alphabetic order: :cross_mark: Bug report
+
+            Cold drinks :check_mark:
+
+            Desserts :check_mark:
+
+            Hot drinks :check_mark:
+
+            Pasta :check_mark:
+
+            Pizza :check_mark:
+
+            Salads :check_mark:
+
+            Soups :cross_mark: Bug report
+
+            Starters :check_mark:
+
+        Price (numeric field text input): :check_mark:
+
+            Field accepts only numeric input ( 0 1 2 3 4 5 6 7 8 . and , ) :check_mark:
+
+            In a good practice comma ‘,' or dot '.’ can be used for separating decimal points, but on products list decimal points are separated (in one format) with a dot. :cross_mark: Bug report
+
+            Maximum two digits after comma :check_mark:
+
+            When entering only one digit after comma, system will add zero '0' at the end( Example: 5.6 → 5.60 ) :cross_mark: Bug report
+
+            Field accepts maximum of 15 characters (by current setup / point of discussion) :check_mark:
+
+        Size - text element (Maximum allowed length of text input discussed with product owner!) :check_mark:
+
+        Unit type in a form of dropdown list with values: :check_mark:
+
+            serve :check_mark:
+
+            ml :check_mark:
+
+            cl :check_mark:
+
+            litre :check_mark:
+
+            kg :check_mark:
+
+            small :check_mark:
+
+            medium :check_mark:
+
+            large :check_mark:
+
+            extra large :check_mark:
+
+                No extra values :cross_mark: Bug report
+
+        Image - images in format '.jpg' and '.png' can be uploaded for products :check_mark:
+
+        Allergy information in a form of dropdown in alphabetic order: :cross_mark: Bug report (list in a form of dropdown list) :cross_mark: Bug report(list not in alphabetical order)
+
+            Celery :check_mark:
+
+            Gluten :cross_mark: Bug report
+
+            Eggs :cross_mark: Bug report
+
+            Fish :check_mark:
+
+            Lupin :check_mark:
+
+            Milk :cross_mark: Bug report
+
+            Molluscs :check_mark:
+
+            Mustard :check_mark:
+
+            Nuts :check_mark:
+
+            Sesame :check_mark:
+
+            Soybeans :check_mark:
+
+            Sulphur dioxide and sulphites :check_mark:
+
+    Optional fields for each product:
+
+        Highlight in a form of dropdown list with selection in alphabetic order: :cross_mark: Bug report(list in a form of dropdown)
+
+            House special :check_mark:
+
+            Spicy :check_mark:
+
+            Vegan :check_mark:
+
+            Vegetarian :check_mark:
+
+                NB! Optional selection for ‘Highlight’ that contradicts UC2 (Required) is acceptable in current workflow (Subject in discussion board)
+
+    When all required information has added after pressing 'Enter' new product is added to the products list :cross_mark: Bug report
+
+        Should not be possible to add two or more products with exactly same name/each product name should be unique. :cross_mark: Bug report
+
+    Valid input appears with administrator’s entered data in product list as described in UC1
+```
+
 
 
 ***
