@@ -363,8 +363,8 @@ Example Test Case:
 | Description | Check that system behaves correctly when correct username and password are given |
 | Precondition | Login page of ‘Company Collaboration Application’ v.1.0.3 opened in browser: |
 | Test data | **Username/Email:** team6_user@email.com **Password:** user |
-| Test steps |  1.  Open login page 2. Enter correct username to the username field 3. Enter correct password to the password field 4. Click login button |
-| Expected result | 1. Login page displayed on browser 2. Username displayed on username field 3. Password in form of dots displayed on password field 4. Page is redirected to ‘Home’ page. User is logged in, no error message is shown |
+| Test steps |  1 Open login page 2 Enter correct username to the username field 3 Enter correct password to the password field 4 Click login button |
+| Expected result | 1 Login page displayed on browser 2 Username displayed on username field 3 Password in form of dots displayed on password field 4 Page is redirected to ‘Home’ page. User is logged in, no error message is shown |
 
 
 ***
