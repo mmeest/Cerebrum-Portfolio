@@ -1,9 +1,13 @@
 # Cerebrum-Portfolio
 3 manual and 3 automation software testing projects in Cerebrum Hub
 
+## Contents
+- [PROJECT 1 - Food ordering app](#project-1---food-ordering-app)
+- [PROJECT 2 - Company collaboration app](#project-2---company-collaboration-app)
+
 ***
 
-# PROJECT 1
+#PROJECT 1 - Food ordering app
 **Basics**
 * Software Development
 * Process (Agile and Scrum)
@@ -23,7 +27,7 @@
 
 ***
 
-# PROJECT 2
+#PROJECT 2 - Company collaboration app
 **Deepening Knowledge**
 * Exploratroy Testing
 * Regression Testing
