@@ -12,6 +12,20 @@ Siia saate lisada oma sisu.
 </div>
 
 
+```markdown
+<span style="color:blue">Siia saate lisada oma sisu.</span>
+
+less
+
+
+See kasutab HTML `<span>` elementi koos stiiliga, kuid Markdowni tagasisidestatud koodiplokkidega (kolm tagurpidi ülakoma), et tagada, et HTML säilitatakse ja töötab GitHub README.md failis.
+
+Pange tähele, et GitHub README.md failid toetavad ka Markdownis otse HTML-i lisamist, nii et võite proovida järgmist ilma Markdowni tagasisidestatud koodiplokita:
+
+```html
+<span style="color:blue">Siia saate lisada oma sisu.</span>
+
+
 # PROJECT 1
 **Basics**
 * Software Development
