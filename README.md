@@ -32,6 +32,64 @@ Food ordering app
 * Bug/Defect Lifecycle
 * Bug Reporting
 
+
+```
+QA tester: Martin
+
+Environment:
+
+    OS: Windows 10
+
+    Browser:
+
+    Firefox Version 114.0.1 (64 bit)
+
+    Edge Version 114.0.1823.51 (Official build) (64-bit)
+
+    Chrome Version 114.0.5735.134 (Official Build) (64-bit)
+
+    Opera Version:99.0.4788.65
+
+Date of test: 15.07.2023
+
+ 
+
+    User can submit order on ‘Order submit’ screen by adding:
+
+        Table number :check_mark:
+
+        Allergen info (if client has allergies) :check_mark:
+
+        Customer name :check_mark:
+
+        Customer phone number :check_mark:
+
+        Customer Email (page validates correct Email format - email@domain.com) :cross_mark: Bug report
+
+    User sees notification about personal data collection:
+
+        Exact text: “As Part of GDPR requirements, please complete the following fields. We will delete your information after the required 21 day holding period.” :cross_mark: Bug report * Bug report updated on version 0.0.3
+
+    By pressing ‘Submit’ button:
+
+        If not all mandatory fields('Table number'; ‘Name’; ‘Email’) are filled then user will not be redirected and according error messages are displayed. :check_mark:
+
+        If all mandatory fields are filled the page is redirected to order information page :check_mark:
+
+        * Empty orders(With 0 products) cannot be confirmed :cross_mark: Bug report
+
+    Order conformation page displays:
+
+        All ordered products with quantities :check_mark:
+
+        Total price of order :check_mark:
+
+        User can navigate back to menu :check_mark:
+
+    After submitting order user must receive the order by email (address entered on Basket page) :check_mark:
+```
+
+
 ***
 
 # PROJECT 2
